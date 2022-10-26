@@ -54,27 +54,5 @@ color: #333D4B;
   background-image: url(../../img/aboutcountires2.png);
   background-repeat: no-repeat;
 }
-@media only screen and (max-width:710px){
-  .about-headquartes__block,.about-headquartes_countires{
-    display:flex;
-    flex-direction: column;
-    margin: 0 auto;
-    text-align: center;
-  }
-  .about-countries{
-    
-    flex-direction: column;
-    margin: 0 auto;
-    text-align: center;
-    flex-wrap: wrap;
-  }
-  .about-European{
-    margin-bottom: 80px;
-  }
-  .about-European:nth-child(2),
-    .about-European:nth-child(3){
-      display: none;
-    }
 
-  }
 

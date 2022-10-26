@@ -26,18 +26,4 @@ opacity: 0.8;
 .about-main__ourcommintet{
   max-width: 540px;
 }
-@media only screen and (max-width:710px) {
-  .about-main__heroour-blok{
-    flex-direction: column;
-    margin: 0 auto;
-  }
-  .about-main__ourimg{
-    margin-bottom: 48px;
-  }
-  .about-main__outtitle,.about-main__outtext{
-    max-width: 327px;
-  }
-  .about-main__ourcommintet{
-    margin-bottom: 200px;
-  }
-}
+

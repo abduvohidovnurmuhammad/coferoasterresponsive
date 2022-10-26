@@ -93,28 +93,15 @@
     }
     .work__item:hover{
       background-color: #d36dd3;}
-      @media only screen and (max-width:710px){
-        .work__title,.work__dash{
+      @media only screen and (max-width:910px){
+        .work__dash{
           display: none;
         }
-        .work__list{
-          flex-wrap: wrap;
-          display: block;
+        .work__container{
+          align-items: center;
           text-align: center;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          margin: 0 auto;
-
-        } 
-        .btnwork{
-          vertical-align: middle;
-          margin: 0 auto ;
-          position: relative;
-          background-size: center;
-          right: -34%;
         }
-
-
-        
+        .work__list{
+          flex-direction: column;
+        }
       }

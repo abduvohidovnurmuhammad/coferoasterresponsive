@@ -124,22 +124,3 @@ border-radius: 8px;
   color: #000;
   cursor:pointer;
 }
-@media only screen and (max-width:710px) {
-  .create-secondary__number-blok{
-    display: none;
-  }
-  .create-secandary__title{
-    max-width: 328px;
-  }
-  .create-secandary__list{
-    flex-wrap: wrap;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-  }
-  .last__page{
-    background-image: url(../../img/summaryy.png);
-    background-size: 328px 338px;
-  }
-
-}

@@ -44,23 +44,3 @@ border-radius: 50%;
   height: 2px;
   background-color:  #FDD6BA;
 }
-@media only screen and (max-width:710px){
-  .create-work__dash{
-    display: none;
-  }
-  .work__list{
-    flex-wrap: wrap;
-    flex-direction: column;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    
-  }
-  .work__item{
-    background-color: #293039;
-  }
-  .number__container{
-    height: 1390px;
-    margin-bottom: 120px;
-  }
-}
