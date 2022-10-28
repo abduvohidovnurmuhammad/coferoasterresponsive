@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  margin-bottom: 168px;
+  margin-bottom: 304px;
 }
 .about-main__ourimg{
   max-width: 335px;
@@ -26,4 +26,46 @@ opacity: 0.8;
 .about-main__ourcommintet{
   max-width: 540px;
 }
+@media only screen and (max-width:1000px) {
+  .about-main__ourimg{
+    max-width: 281px;
+  }
+  .about-main__outtitle{
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .about-main__outtext{
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+  @media only screen and (max-width:890px) {
+    .about-main__heroour-blok{
+      flex-direction: column;
+      text-align: center;
+    }
+    .about-main__ourimg{
+      max-width: 400px;
+      margin-bottom: 48px;
+    }
+    .about-main__outtitle{
+      font-size: 40px;
+    }
+    .about-main__outtext{
+      font-size: 16px;
+    }
+  }
+  @media only screen and (max-width:500px){
+    .about-main__ourimg{
+      max-width: 327px;
+    }
+    .about-main__outtitle{
+      font-size: 32px;
+      line-height: 48px;
+    }
+    .about-main__outtext{
+      font-size: 15px;
+      line-height: 25px;  
+    }
+  }
 

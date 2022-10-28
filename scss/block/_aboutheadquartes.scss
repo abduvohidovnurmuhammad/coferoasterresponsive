@@ -11,8 +11,8 @@ margin-bottom: 72px;
 }
 .about-headquartes__block{
   max-width: 1045px;
-  height: 366px;
   margin: 0 auto;
+
 }
 .about-headquartes_countires{
  font-family: 'Fraunces';
@@ -29,6 +29,7 @@ max-width: 272px;
 }
 .about-European{
   margin-right: 95px;
+  margin-bottom: 20px;
 }
 .about-headquartes__text{
   font-family: 'Barlow';
@@ -54,5 +55,18 @@ color: #333D4B;
   background-image: url(../../img/aboutcountires2.png);
   background-repeat: no-repeat;
 }
-
+@media only screen and (max-width:592px) {
+  .about-countries{
+    flex-direction: column;
+  }
+  .about-headquartes__block{
+    text-align: center;
+  }
+  .about-European{
+    margin-right: 0;
+  }
+  .about-headquartes_countires{
+    margin: auto;
+  }
+}
 

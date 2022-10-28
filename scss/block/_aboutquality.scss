@@ -20,6 +20,7 @@ font-size: 40px;
 line-height: 48px;
 color: #FEFCF7;
 margin-bottom: 32px;
+flex-shrink: 0;
 }
 .about-quality__text{
   font-family: 'Barlow';
@@ -32,9 +33,54 @@ opacity: 0.8;
 .quality-img{
   position: absolute;
 max-width: 445px;
-height: 474px;
 right: 5%;
 top: -15%;
+}
+@media only screen and (max-width:1180px) {
+  .about-quality__blok{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .quality-img{
+  background-image: url(../../img/aboutqualitytable.jpg);
+    height: 250px;
+    max-width: 573px;
+    top: -40%;
+  }
+  .quality-img__block{
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+}
+@media only screen and (max-width:700px) {
+  .quality-img{
+    max-width: 279px;
+  }
+  .about-quality__blok{
+    padding: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+}
+@media only screen and (max-width:530px) {
+  .about-quality__title{
+    font-size: 28px;
+    line-height: 28px;  
+    text-align: center;
+  }
+  .about-quality__text{
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+  }
+
 }
 
 

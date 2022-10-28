@@ -1,13 +1,10 @@
 .about-main__container{
   background-image: url(../../img/abouthero.png);
   background-repeat: no-repeat;
-  height: 450px;
   margin-bottom: 168px;
-  padding-top: 200px ;
-  max-width: 1320px;
-}
-.about-main__block{
-  max-width: 445px;
+  padding: 200px 0;
+  border-radius: 10px;
+  padding-left:85px;
 }
 .about-main__title{
   font-family: 'Fraunces';
@@ -17,6 +14,9 @@ line-height: 48px;
 color: #FEFCF7;
 margin-bottom: 24px;
 }
+.about-main__block{
+  max-width: 445px;
+}
 .about-main__text{
   font-family: 'Barlow';
   font-weight: 400;
@@ -25,3 +25,30 @@ margin-bottom: 24px;
   color: #FEFCF7;
   opacity: 0.6;
 }
+@media only screen and (max-width:752px) {
+  .about-main__container{
+    background-image: url(../../img/abourherotable.jpg);
+    background-size: cover;
+    height: 400px;
+  }
+}
+@media only screen and (max-width:752px){
+  .about-main__container{
+    background-image: url(../../img/aboutheromobile.jpg);
+    background-size: cover;
+  }}
+  @media only screen and (max-width:537px){
+    .about-main__container{
+      padding-left: 0;
+      padding-bottom: 300px;
+    }
+    .about-main__block{
+      text-align: center;
+      max-width: 537px;
+      margin: 0 30px;
+    }
+    .about-main__text{
+      font-size: 15px;
+      line-height: 25px;
+    }
+  }
