@@ -43,4 +43,32 @@ border-radius: 50%;
   height: 2px;
   background-color:  #FDD6BA;
 }
-
+@media only screen and (max-width:1120px) {
+  .create-work__dash{
+    display: none;
+  }
+  .work__list{
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width:550px) {
+  .number__container{
+    padding: 0;
+    padding-top: 50px;
+  }
+  .work__item{
+    text-align: center;
+  }
+  .work__number{
+    font-size: 72px;
+    line-height: 72px;
+  }
+  .create-work__task{
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .create-work__text{
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
